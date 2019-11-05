@@ -3,13 +3,13 @@ An example javascript project, calculating living expenses if you work in Japan
 ![Project Image](doc/expenseCal.png)
 
 ## Link to the Project
-* [Live Project](https://codepen.io/theyij/pen/OJJVgzm) 
+* [codepen](https://codepen.io/theyij/pen/RwwbBrg) 
 
 ## Task
-This is a project as a simple calculator for expacts in Japan to have a basice understanding about tax, pension and insurances.
+This is a project for learning how rgb color works and has a easy version with 3 options and hard version with 6 options.
 
 ## Function
-This project can now calculate your general tax, pension, etc.
+This project provides random rgb color along with 5 other color for player to learn more about rgb color system.
 
 ## Tech Stack
 * Javascript
