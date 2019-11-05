@@ -1,0 +1,40 @@
+body {
+  background-color: #F1FFFA;
+}
+
+button {
+  font-size: 1.5em;
+  margin: 5%;
+  background-color: #785964;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  margin: 0 10%;
+}
+
+.left {
+  margin-left: 10px;
+}
+
+.right {
+  margin-left: 50%;
+}
+
+/* .inline{
+  display: flex;
+  flex-wrap: wrap;
+  /* display:block;
+  flex-direction: row
+} */
+#head {
+  background-color: #93B7BE;
+  text-align: center;
+}
+
+#footer {
+  margin-top: 30px;
+  color: #93B7BE;
+}

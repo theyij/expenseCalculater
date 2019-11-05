@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>日本生存公式 | Wage Calculator | yijen</title>
+  <link rel="stylesheet" type="text/css" href="doc/style.css">.
+
+</head>
+<div class="container">
+
+  <body>
+    <div id="head">
+      <h1>日本生存公式｜Wage Calculator</h1>
+      <p>目標：計算在日本收入支出等</p>
+    </div>
+    <div>
+      <form>
+        <div class="inline">
+          <p class="left">月薪｜Monthly Wage: </p><input type="text" class="right" id="mWage" required>
+        </div>
+        <p class="left">獎金｜Bouns: </p><input type="text" class="right" id="bouns" required>
+        <p class="left">交通費｜Monthly Pass: </p><input type="text" class="right" id="train" required>
+        <p class="left">住宿補貼｜Rental Support: </p><input type="text" class="right" id="rent" required>
+        <!-- Operator: -->
+        <!-- <select id="operator">
+        <option value="1y">一年整</option>
+        <option value="2y">二年整</option>
+        <option value="div">Divide</option>
+        <option value="mul">Multiply</option>
+      </select> -->
+        <button type="button" onclick="basic()" class="button-style">年收計算｜Total Income</button>
+      </form>
+      <p class="left">年收｜Yearly Wage : </p>
+      <div id="yWage" class="right"></div>
+      <p class="left">補助｜Benifit : </p>
+      <div id="yBenifit" class="right"></div>
+      <br>
+      <p class="left">總收入｜Income : </p>
+      <div id="yIncome" class="right"></div>
+    </div>
+    <div>
+      <form>
+        <button type="button" onclick="fixExpense()" class="button-style">稅金與保險｜Tax & Insurances</button>
+      </form>
+
+      <p>每月需繳稅金與保險｜Monthly Tax & Insurances : </p>
+      <div id="fixExp"></div>
+      <br>
+      <p>雇用保險｜Employment Insurance : <a target="_blank" href="https://www.mhlw.go.jp/content/000484772.pdf">
+          REF</a></p>
+      <div id="empIns"></div>
+      <p>厚生年金｜Employees' Pension : <a target="_blank" href="https://www.nenkin.go.jp/service/kounen/hokenryo-gaku/gakuhyo/20170822.files/1.pdf">
+          REF</a></p>
+      <div id="empPen"></div>
+      <p>健康保險｜Health Insurance : <a target="_blank" href="http://www.kyoukaikenpo.or.jp/g3/cat330/sb3130/h31/310213">
+          REF</a></p>
+      <div id="healthIns"></div>
+      <p>區民稅｜Resident tax : <a target="_blank" href="https://internet.watch.impress.co.jp/docs/special/1129773.html">
+          REF</a></p>
+      <div id="residentTax"></div>
+      <p>所得稅｜Income tax : <a target="_blank" href="https://internet.watch.impress.co.jp/docs/special/1129773.html">
+          REF</a></p>
+      <div id="incomeTax"></div>
+    </div>
+    <hr>
+
+    <div id="footer">
+      <p>I've been living in Japan for a several years, often get questions from peopel who are interested in working here.
+        Therefore, I would like to build a simple calculator to help people extimate their wage and living expenses ahead of time.</p>
+      <p>There will be different stage of this project.</p>
+      <ol>
+          <li>(income)monthly wage & bouns = annual wage</li>
+          <li>(bouns)transportation fee, housing support from company & bouns</li>
+          <li>(tax)general tax, insurance</li>
+        <strong>
+          <li>(house)rent a house in Japan</li>
+          <li>(household expenses)water, gas, electricity</li>
+          <li>(expenses)food spending per day</li>
+          <li>(expenses)what's left for you</li>
+          <li>(javescript)show result after clicking button</li>
+          <li>(css)web & device</li>
+
+        </strong>
+      </ol>
+      <p>under different section there will be detail selectors in the future. Will only be building general options till I finish other projects.</p>
+    </div>
+</div>
+</body>
+<script src="doc/main.js"></script>
+
+</html>
