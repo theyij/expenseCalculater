@@ -1,4 +1,4 @@
-### Expense Calculator
+# Expense Calculator
 An example javascript project, calculating living expenses if you work in Japan
 ![Project Image](doc/expenseCal.png)
 
